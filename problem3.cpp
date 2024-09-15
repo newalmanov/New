@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-    float C=0;
+    double C=0;
+    double F=C*9/5+32;
     cin>>C;
-    cout<<"The temperature in Faranheit equal to "<<float (C+32)<<endl;
+    cout<<"The temperature in Faranheit equal to "<<F<<endl;
     return 0;
 }
